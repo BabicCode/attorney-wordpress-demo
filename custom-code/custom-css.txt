@@ -1,0 +1,125 @@
+.wpforms-form select {
+  -webkit-appearance: menulist !important;
+  -moz-appearance: menulist !important;
+  appearance: menulist !important;
+  background-image: none !important;
+}
+
+.wpforms-form .wpforms-field-select::after,
+.wpforms-form .wpforms-field-select:after,
+.wpforms-form .wpforms-field-select i {
+  display: none !important;
+}
+
+.wpforms-container,
+.wpforms-form {
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+}
+
+.wpforms-confirmation-container-full,
+div[submit-success] > .wpforms-confirmation-container-full {
+    background: #f8f6f2 !important;
+    border-left: 4px solid #8a6a3b !important;
+    color: #1a1a1a !important;
+    padding: 18px 22px !important;
+    margin-top: 20px !important;
+    border-radius: 0 !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 17px !important;
+    line-height: 1.6 !important;
+    box-shadow: none !important;
+}
+
+.wpforms-container .wpforms-confirmation-container-full {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.practice-scroll,
+.practice-scroll .elementor-widget-wrap,
+.practice-scroll .e-con-inner,
+.practice-scroll .e-con {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+  scroll-behavior: smooth;
+}
+
+.practice-scroll::-webkit-scrollbar,
+.practice-scroll .elementor-widget-wrap::-webkit-scrollbar,
+.practice-scroll .e-con-inner::-webkit-scrollbar,
+.practice-scroll .e-con::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+*::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+* {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.scroll-left,
+.scroll-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.scroll-left i,
+.scroll-right i,
+.scroll-left svg,
+.scroll-right svg {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 0.8;
+}
+
+.scroll-left:hover i,
+.scroll-right:hover i,
+.scroll-left:hover svg,
+.scroll-right:hover svg {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.scroll-left .elementor-icon,
+.scroll-right .elementor-icon {
+  border: 1px solid #d8c9bb;
+  border-radius: 50%;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.scroll-left .elementor-icon,
+.scroll-right .elementor-icon,
+.scroll-left i,
+.scroll-right i,
+.scroll-left svg,
+.scroll-right svg {
+  cursor: pointer;
+}
+
+.footer-links a {
+	color: #ffffff;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+	color: #8a6a3b;
+}
+
