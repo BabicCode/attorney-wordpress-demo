@@ -1,0 +1,21 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const scroller = document.querySelector('.practice-scroll');
+  const leftBtn = document.querySelector('.scroll-left');
+  const rightBtn = document.querySelector('.scroll-right');
+
+  if (!scroller || !leftBtn || !rightBtn) return;
+
+  leftBtn.addEventListener('click', function () {
+    scroller.scrollBy({
+      left: -300,
+      behavior: 'smooth'
+    });
+  });
+
+  rightBtn.addEventListener('click', function () {
+    scroller.scrollBy({
+      left: 300,
+      behavior: 'smooth'
+    });
+  });
+});
